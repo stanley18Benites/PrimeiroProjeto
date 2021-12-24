@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/26 11:43:22.000.713,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 09:04:08.000.759,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 09:08:49.000.203,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/12/21 09:12:54.000.189,C:\projetos\Recibo\uMenu.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/12/21 09:12:54.000.189,C:\projetos\Recibo\uMenu.dfm=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2021/12/21 09:13:08.000.601,C:\projetos\Recibo\uCadastro.dfm=C:\projetos\Recibo\uMenu.dfm</Transaction>
+    <Transaction>2021/12/21 09:13:08.000.601,C:\projetos\Recibo\uCadastro.pas=C:\projetos\Recibo\uMenu.pas</Transaction>
+    <Transaction>2021/12/21 09:13:16.000.720,C:\projetos\Recibo\uMenu.dfm=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/12/21 09:13:16.000.720,C:\projetos\Recibo\uMenu.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 09:13:32.000.154,C:\projetos\Recibo\frmMenu.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/12/21 09:55:44.000.959,=C:\projetos\Recibo\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 09:56:29.000.234,C:\projetos\Recibo\Unit1.pas=C:\projetos\Recibo\uRecibo.pas</Transaction>
+    <Transaction>2021/12/21 09:56:29.000.234,C:\projetos\Recibo\Unit1.dfm=C:\projetos\Recibo\uRecibo.dfm</Transaction>
+    <Transaction>2021/12/21 10:04:39.000.822,C:\projetos\Recibo\frmMenu.dproj=C:\projetos\Recibo\Recibo.dproj</Transaction>
+    <Transaction>2021/12/21 14:34:04.867,=C:\projetos\Recibo\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 14:34:11.818,C:\projetos\Recibo\UnExtenso.pas=C:\projetos\Recibo\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 15:40:25.263,=C:\projetos\Recibo\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

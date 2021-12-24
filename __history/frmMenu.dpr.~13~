@@ -1,0 +1,21 @@
+program frmMenu;
+
+uses
+  Vcl.Forms,
+  uMenu in 'uMenu.pas' {frmMenuRecibo},
+  uRecibo in 'uRecibo.pas' {frmRecibo},
+  uCadastro in 'uCadastro.pas' {frmCadastro},
+  uCarregaBanco in 'uCarregaBanco.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMenuRecibo, frmMenuRecibo);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmCadastro, frmCadastro);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
