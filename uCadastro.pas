@@ -79,7 +79,7 @@ uses uRecibo, UnExtenso,  uCarregaBanco;
 
 procedure TfrmCadastro.Button1Click(Sender: TObject);
 var s, str : String;
-{
+
 begin
   frmrecibo := TfrmRecibo.Create(application);
   try
@@ -126,16 +126,8 @@ begin
     frmRecibo.Free;
   end;
 end;
-}
-begin
-  frmCarregaBanco := TfrmCarregaBanco.create(application);
-  try
 
-  finally
 
-  end;
-
-end;
 
 procedure TfrmCadastro.Button2Click(Sender: TObject);
 begin

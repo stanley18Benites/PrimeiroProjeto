@@ -11,10 +11,9 @@ type
     Label1: TLabel;
     Button1: TButton;
     Button2: TButton;
-    Button3: TButton;
     procedure Button2Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
-    procedure Button3Click(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -43,6 +42,7 @@ begin
   Application.Terminate;
 end;
 
+{
 procedure TfrmMenuRecibo.Button3Click(Sender: TObject);
 begin
   frmCarregaBanco := TfrmCarregaBanco.Create(Application);
@@ -52,5 +52,5 @@ begin
 
   end;
 end;
-
+}
 end.

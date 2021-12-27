@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/26 11:43:22.000.713,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 09:04:08.000.759,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 09:08:49.000.203,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/12/21 09:12:54.000.189,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\projetos\Recibo\uMenu.pas</Transaction>
+    <Transaction>2021/12/21 09:12:54.000.189,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\projetos\Recibo\uMenu.dfm</Transaction>
+    <Transaction>2021/12/21 09:13:08.000.601,C:\projetos\Recibo\uMenu.pas=C:\projetos\Recibo\uCadastro.pas</Transaction>
+    <Transaction>2021/12/21 09:13:08.000.601,C:\projetos\Recibo\uMenu.dfm=C:\projetos\Recibo\uCadastro.dfm</Transaction>
+    <Transaction>2021/12/21 09:13:16.000.720,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\projetos\Recibo\uMenu.dfm</Transaction>
+    <Transaction>2021/12/21 09:13:16.000.720,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\projetos\Recibo\uMenu.pas</Transaction>
+    <Transaction>2021/12/21 09:13:32.000.154,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\projetos\Recibo\frmMenu.dproj</Transaction>
+    <Transaction>2021/12/21 09:55:44.000.959,=C:\projetos\Recibo\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 09:56:29.000.234,C:\projetos\Recibo\uRecibo.dfm=C:\projetos\Recibo\Unit1.dfm</Transaction>
+    <Transaction>2021/12/21 09:56:29.000.234,C:\projetos\Recibo\uRecibo.pas=C:\projetos\Recibo\Unit1.pas</Transaction>
+    <Transaction>2021/12/23 16:57:05.000.870,=C:\projetos\Recibo\Unit1.pas</Transaction>
+    <Transaction>2021/12/23 16:57:30.000.944,C:\projetos\Recibo\Unit1.pas=C:\projetos\Recibo\uCarregaBanco.pas</Transaction>
+    <Transaction>2021/12/23 16:57:30.000.944,C:\projetos\Recibo\Unit1.dfm=C:\projetos\Recibo\uCarregaBanco.dfm</Transaction>
+    <Transaction>2021/12/27 13:01:39.000.760,C:\projetos\Recibo\frmMenu.dproj=C:\projetos\Recibo\recibo.dproj</Transaction>
+    <Transaction>2021/12/27 13:01:39.000.782,C:\projetos\Recibo\recibo.dproj=C:\projetos\Recibo\frmMenu.dproj</Transaction>
+    <Transaction>2021/12/27 13:01:50.000.049,C:\projetos\Recibo\frmMenu.dproj=C:\projetos\Recibo\recibos.dproj</Transaction>
+    <Transaction>2021/12/27 13:09:08.316,C:\projetos\Recibo\uCarregaBanco.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
