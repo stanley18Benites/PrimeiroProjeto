@@ -48,13 +48,4 @@ object frmMenuRecibo: TfrmMenuRecibo
     TabOrder = 1
     OnClick = Button2Click
   end
-  object Button3: TButton
-    Left = 122
-    Top = 152
-    Width = 75
-    Height = 25
-    Caption = 'Button3'
-    TabOrder = 2
-    OnClick = Button3Click
-  end
 end

@@ -19,7 +19,7 @@ object frmCadastro: TfrmCadastro
     Left = 3
     Top = 8
     Width = 399
-    Height = 327
+    Height = 285
     BorderStyle = bsSingle
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -375,8 +375,8 @@ object frmCadastro: TfrmCadastro
     end
   end
   object Button1: TButton
-    Left = 581
-    Top = 299
+    Left = 3
+    Top = 317
     Width = 75
     Height = 25
     Caption = 'IMPRIMIR'
@@ -384,8 +384,8 @@ object frmCadastro: TfrmCadastro
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 668
-    Top = 299
+    Left = 82
+    Top = 317
     Width = 75
     Height = 25
     Caption = 'CANCELAR'

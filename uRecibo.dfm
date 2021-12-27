@@ -27,7 +27,7 @@ object frmRecibo: TfrmRecibo
       Left = 41
       Top = 40
       Width = 712
-      Height = 80
+      Height = 78
       Alignment = taCenter
       Borders.Sides = sdCustom
       Borders.DrawLeft = True
@@ -264,7 +264,7 @@ object frmRecibo: TfrmRecibo
       end
       object lbNomeEmpresa: TRLLabel
         Left = 337
-        Top = 316
+        Top = 317
         Width = 338
         Height = 16
         Alignment = taCenter
@@ -278,7 +278,7 @@ object frmRecibo: TfrmRecibo
       end
       object lbCnpj: TRLLabel
         Left = 337
-        Top = 335
+        Top = 332
         Width = 338
         Height = 23
         Alignment = taCenter
@@ -292,7 +292,7 @@ object frmRecibo: TfrmRecibo
       end
       object RLLabel1: TRLLabel
         Left = 338
-        Top = 297
+        Top = 304
         Width = 337
         Height = 16
         AutoSize = False
@@ -341,7 +341,7 @@ object frmRecibo: TfrmRecibo
       end
       object lbInscEstadual: TRLLabel
         Left = 338
-        Top = 358
+        Top = 353
         Width = 338
         Height = 23
         Alignment = taCenter
