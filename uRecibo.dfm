@@ -27,7 +27,7 @@ object frmRecibo: TfrmRecibo
       Left = 41
       Top = 40
       Width = 684
-      Height = 88
+      Height = 80
       Alignment = taCenter
       Borders.Sides = sdCustom
       Borders.DrawLeft = True
@@ -53,7 +53,7 @@ object frmRecibo: TfrmRecibo
       end
       object edtEndereco: TRLLabel
         Left = 16
-        Top = 18
+        Top = 23
         Width = 432
         Height = 16
         AutoSize = False
@@ -66,7 +66,7 @@ object frmRecibo: TfrmRecibo
       end
       object edtFone: TRLLabel
         Left = 16
-        Top = 35
+        Top = 40
         Width = 432
         Height = 16
         AutoSize = False
@@ -79,7 +79,7 @@ object frmRecibo: TfrmRecibo
       end
       object edtCidade: TRLLabel
         Left = 16
-        Top = 52
+        Top = 57
         Width = 432
         Height = 16
         AutoSize = False
@@ -92,7 +92,7 @@ object frmRecibo: TfrmRecibo
       end
       object lbNomEmpresa: TRLLabel
         Left = 16
-        Top = 1
+        Top = 6
         Width = 432
         Height = 16
         AutoSize = False
@@ -121,7 +121,7 @@ object frmRecibo: TfrmRecibo
     end
     object RLPanel1: TRLPanel
       Left = 41
-      Top = 128
+      Top = 119
       Width = 684
       Height = 398
       Alignment = taCenter
@@ -259,15 +259,15 @@ object frmRecibo: TfrmRecibo
         ParentFont = False
       end
       object RLSystemInfo1: TRLSystemInfo
-        Left = 376
-        Top = 233
-        Width = 300
+        Left = 400
+        Top = 232
+        Width = 276
         Height = 18
         Alignment = taCenter
         AutoSize = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
-        Font.Height = -15
+        Font.Height = -13
         Font.Name = 'Arial'
         Font.Style = [fsBold]
         Info = itFullDate
@@ -368,9 +368,9 @@ object frmRecibo: TfrmRecibo
         ParentFont = False
       end
       object lbCidade: TRLLabel
-        Left = 193
+        Left = 261
         Top = 233
-        Width = 150
+        Width = 124
         Height = 17
         Alignment = taCenter
         AutoSize = False
@@ -382,7 +382,7 @@ object frmRecibo: TfrmRecibo
         ParentFont = False
       end
       object lbEstado: TRLLabel
-        Left = 337
+        Left = 378
         Top = 233
         Width = 40
         Height = 17
