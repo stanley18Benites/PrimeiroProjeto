@@ -86,7 +86,7 @@ object frmCadastro: TfrmCadastro
       ParentFont = False
     end
     object Label14: TLabel
-      Left = 285
+      Left = 275
       Top = 165
       Width = 56
       Height = 13
@@ -200,9 +200,8 @@ object frmCadastro: TfrmCadastro
     object edtEstado: TEdit
       Left = 220
       Top = 180
-      Width = 63
+      Width = 54
       Height = 22
-      Alignment = taCenter
       CharCase = ecUpperCase
       MaxLength = 2
       TabOrder = 8
@@ -224,9 +223,9 @@ object frmCadastro: TfrmCadastro
       TabOrder = 6
     end
     object edtNumCasa: TEdit
-      Left = 284
+      Left = 275
       Top = 180
-      Width = 87
+      Width = 96
       Height = 22
       CharCase = ecUpperCase
       TabOrder = 9

@@ -16,7 +16,6 @@ type
     edtCidade: TRLLabel;
     RLPanel1: TRLPanel;
     Label1: TLabel;
-    RLLabel4: TRLLabel;
     RLLabel5: TRLLabel;
     lbValor: TRLLabel;
     RLLabel7: TRLLabel;
@@ -29,6 +28,13 @@ type
     RLLabel1: TRLLabel;
     memoRef: TRLMemo;
     RLLabel3: TRLLabel;
+    lbInscEstadual: TRLLabel;
+    RLLabel2: TRLLabel;
+    RLLabel6: TRLLabel;
+    lbCidade: TRLLabel;
+    lbEstado: TRLLabel;
+    procedure RLSystemInfo1BeforePrint(Sender: TObject; var AText: string;
+      var PrintIt: Boolean);
   private
     { Private declarations }
   public
@@ -42,4 +48,15 @@ implementation
 
 {$R *.dfm}
 
+
+
+procedure TfrmRecibo.RLSystemInfo1BeforePrint(Sender: TObject;
+  var AText: string; var PrintIt: Boolean);
+  var
+    PrimeiraLetra : string;
+    Primeira : AnsiString;
+  begin
+   PrimeiraLetra := Copy(AText,1,1);
+   //ShowMessage(PrimeiraLetra);
+end
 end.

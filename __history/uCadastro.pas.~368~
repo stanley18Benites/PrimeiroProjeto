@@ -79,7 +79,7 @@ uses uRecibo, UnExtenso,  uCarregaBanco;
 
 procedure TfrmCadastro.Button1Click(Sender: TObject);
 var s, str : String;
-{
+
 begin
   frmrecibo := TfrmRecibo.Create(application);
   try
@@ -120,18 +120,16 @@ begin
     if MaskEdit3.Text <> EmptyStr then
       frmRecibo.lbInscEstadual.Caption := MaskEdit3.Text;
       frmRecibo.edtFone.Caption := str;
+      frmRecibo.lbCidade.Caption := edtCidadeEmpresa.Text;
+      frmRecibo.lbEstado.Caption := edtEstado.Text;
     frmRecibo.RLReport1.Preview;
     boxTelOpcional.ItemIndex := 0;
   finally
     frmRecibo.Free;
   end;
 end;
-}
-begin
-  Form1:= TForm1.Create(application);
-  form1.showModal();
 
-end;
+
 
 procedure TfrmCadastro.Button2Click(Sender: TObject);
 begin

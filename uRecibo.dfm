@@ -26,8 +26,8 @@ object frmRecibo: TfrmRecibo
     object pDados: TRLPanel
       Left = 41
       Top = 40
-      Width = 712
-      Height = 78
+      Width = 684
+      Height = 88
       Alignment = taCenter
       Borders.Sides = sdCustom
       Borders.DrawLeft = True
@@ -53,49 +53,77 @@ object frmRecibo: TfrmRecibo
       end
       object edtEndereco: TRLLabel
         Left = 16
-        Top = 17
+        Top = 18
         Width = 432
         Height = 16
         AutoSize = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
-        Font.Height = -13
+        Font.Height = -12
         Font.Name = 'Arial'
         Font.Style = []
         ParentFont = False
       end
       object edtFone: TRLLabel
         Left = 16
-        Top = 33
+        Top = 35
         Width = 432
         Height = 16
         AutoSize = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
-        Font.Height = -13
+        Font.Height = -12
         Font.Name = 'Arial'
         Font.Style = []
         ParentFont = False
       end
       object edtCidade: TRLLabel
         Left = 16
-        Top = 49
+        Top = 52
         Width = 432
         Height = 16
         AutoSize = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
-        Font.Height = -13
+        Font.Height = -12
         Font.Name = 'Arial'
         Font.Style = []
+        ParentFont = False
+      end
+      object lbNomEmpresa: TRLLabel
+        Left = 16
+        Top = 1
+        Width = 432
+        Height = 16
+        AutoSize = False
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Arial'
+        Font.Style = []
+        ParentFont = False
+      end
+      object RLLabel6: TRLLabel
+        Left = 570
+        Top = 4
+        Width = 105
+        Height = 26
+        AutoSize = False
+        Caption = 'R E C I B O'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -19
+        Font.Name = 'Arial'
+        Font.Style = [fsBold]
+        Layout = tlCenter
         ParentFont = False
       end
     end
     object RLPanel1: TRLPanel
       Left = 41
-      Top = 118
-      Width = 712
-      Height = 388
+      Top = 128
+      Width = 684
+      Height = 398
       Alignment = taCenter
       Borders.Sides = sdCustom
       Borders.DrawLeft = True
@@ -111,21 +139,6 @@ object frmRecibo: TfrmRecibo
         Top = 4
         Width = 4
         Height = 16
-      end
-      object RLLabel4: TRLLabel
-        Left = 64
-        Top = 6
-        Width = 105
-        Height = 26
-        AutoSize = False
-        Caption = 'R E C I B O'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
-        Font.Height = -19
-        Font.Name = 'Arial'
-        Font.Style = [fsBold]
-        Layout = tlCenter
-        ParentFont = False
       end
       object RLLabel5: TRLLabel
         Left = 416
@@ -246,10 +259,10 @@ object frmRecibo: TfrmRecibo
         ParentFont = False
       end
       object RLSystemInfo1: TRLSystemInfo
-        Left = 4
+        Left = 376
         Top = 233
-        Width = 672
-        Height = 16
+        Width = 300
+        Height = 18
         Alignment = taCenter
         AutoSize = False
         Font.Charset = DEFAULT_CHARSET
@@ -261,6 +274,7 @@ object frmRecibo: TfrmRecibo
         Layout = tlCenter
         ParentFont = False
         Text = ''
+        BeforePrint = RLSystemInfo1BeforePrint
       end
       object lbNomeEmpresa: TRLLabel
         Left = 337
@@ -292,7 +306,7 @@ object frmRecibo: TfrmRecibo
       end
       object RLLabel1: TRLLabel
         Left = 338
-        Top = 304
+        Top = 310
         Width = 337
         Height = 16
         AutoSize = False
@@ -344,6 +358,34 @@ object frmRecibo: TfrmRecibo
         Top = 353
         Width = 338
         Height = 23
+        Alignment = taCenter
+        AutoSize = False
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object lbCidade: TRLLabel
+        Left = 193
+        Top = 233
+        Width = 150
+        Height = 17
+        Alignment = taCenter
+        AutoSize = False
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object lbEstado: TRLLabel
+        Left = 337
+        Top = 233
+        Width = 40
+        Height = 17
         Alignment = taCenter
         AutoSize = False
         Font.Charset = DEFAULT_CHARSET
