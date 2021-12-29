@@ -2,7 +2,7 @@ object frmCadastro: TfrmCadastro
   Left = 0
   Top = 0
   Caption = 'Recibo'
-  ClientHeight = 350
+  ClientHeight = 355
   ClientWidth = 770
   Color = 10132122
   Font.Charset = DEFAULT_CHARSET

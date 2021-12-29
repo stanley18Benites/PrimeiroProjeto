@@ -129,9 +129,6 @@ begin
     frmRecibo.Free;
   end;
 end;
-
-
-
 procedure TfrmCadastro.Button2Click(Sender: TObject);
 begin
   close;
@@ -308,7 +305,6 @@ begin
       MaskEdit3.Text := '';
     end;
 end;
-
 procedure TfrmCadastro.boxTelOpcionalClick(Sender: TObject);
 begin
   if boxTelOpcional.ItemIndex = 1 then
@@ -368,5 +364,4 @@ begin
       MaskEdit2.EditMask := '##.###.###/####-##;1;_' ;
     end;
 end;
-
 end.
