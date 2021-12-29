@@ -119,16 +119,16 @@ begin
       str := str + '/ ' + MaskEdit1.Text;
     if MaskEdit3.Text <> EmptyStr then
       frmRecibo.lbInscEstadual.Caption := MaskEdit3.Text;
-      frmRecibo.edtFone.Caption := str;
-    frmRecibo.RLReport1.Preview;
-    boxTelOpcional.ItemIndex := 0;
+     frmRecibo.edtFone.Caption := str;
+     frmRecibo.lbCidade.Caption := edtCidadeEmpresa.Text + '-';
+     frmRecibo.lbEstado.Caption := edtEstado.Text + ' ,';
+     frmRecibo.lbNomEmpresa.Caption := edtNomeEmp.Text;
+     frmRecibo.RLReport1.Preview;
+     boxTelOpcional.ItemIndex := 0;
   finally
     frmRecibo.Free;
   end;
 end;
-
-
-
 procedure TfrmCadastro.Button2Click(Sender: TObject);
 begin
   close;
@@ -305,7 +305,6 @@ begin
       MaskEdit3.Text := '';
     end;
 end;
-
 procedure TfrmCadastro.boxTelOpcionalClick(Sender: TObject);
 begin
   if boxTelOpcional.ItemIndex = 1 then
@@ -365,5 +364,4 @@ begin
       MaskEdit2.EditMask := '##.###.###/####-##;1;_' ;
     end;
 end;
-
 end.

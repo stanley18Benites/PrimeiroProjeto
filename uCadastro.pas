@@ -120,8 +120,8 @@ begin
     if MaskEdit3.Text <> EmptyStr then
       frmRecibo.lbInscEstadual.Caption := MaskEdit3.Text;
      frmRecibo.edtFone.Caption := str;
-     frmRecibo.lbCidade.Caption := edtCidadeEmpresa.Text + '-';
-     frmRecibo.lbEstado.Caption := edtEstado.Text + ' ,';
+     frmRecibo.lbCidade.Caption := edtCidadeEmpresa.Text + ' - ';
+     frmRecibo.lbEstado.Caption := edtEstado.Text + ',';
      frmRecibo.lbNomEmpresa.Caption := edtNomeEmp.Text;
      frmRecibo.RLReport1.Preview;
      boxTelOpcional.ItemIndex := 0;
